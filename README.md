@@ -1,7 +1,8 @@
-# chrono
+# chrono [![Build Version](https://nimble.directory/ci/badges/chronopipe/version.svg)](https://nimble.directory/pkg/chronopipe) [![Build Status](https://nimble.directory/ci/badges/chronopipe/nimdevel/status.svg)](https://nimble.directory/ci/badges/chronopipe/nimdevel/output.html)
 Show start/end datetime and duration of a command-line process using pipe.
 
 # Usage
+
 ```sh
 program | chrono
 ```
@@ -13,10 +14,16 @@ sleep 5s | chrono
 # [chrono] Duration: 5 seconds, 75 milliseconds, 13 microseconds, and 100 nanoseconds
 ```
 
+# Install
+
+Using <kbd>nimble</kbd> package directory:
+```sh
+nimble install chronopipe
+```
+
 # Development
 
-Clone this repo then build with `nimble`.
-
+Clone this repo then build with <kbd>nimble</kbd>:
 ```sh
 nimble build
 ```
